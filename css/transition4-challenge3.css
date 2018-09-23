@@ -1,0 +1,23 @@
+.element {
+	background-color: #0997d3;
+	width: 200px;
+	height: 200px;
+	transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.element:hover{
+   transform: translateX(100%);
+}
+
+
+
+@keyframes move-on-x {
+		from {
+				transform: translateX(0px);
+		}
+		to {
+				transform: rotate(100px);
+		}
+}
